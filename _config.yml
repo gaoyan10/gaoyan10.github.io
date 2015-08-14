@@ -9,7 +9,7 @@ relative_permalinks: true
 # Setup
 title:            三生如梦
 tagline:          'A Jekyll theme'
-description:      'Gao Yan的技术博客 <a href="https://github.com/gaoyan10" target="_blank">Gao Yan</a> .'
+description:      '<a href="https://github.com/gaoyan10" target="_blank">Gao Yan</a>的技术博客.'
 url:              http://hyde.getpoole.com
 baseurl:          /
 
