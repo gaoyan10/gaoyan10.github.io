@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="watsy0007" />
+  <meta name="dcterms.date" content="2015-06-12" />
+  <title>linux-工作培训</title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="../public/reveal.js/css/reveal.css"/>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="../public/css/custom.css"/>
+  <link rel="stylesheet" href="../public/reveal.js/css/theme/simple.css" id="theme">
+  <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+  <script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = '../public/reveal.js/css/print/pdf.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+  </script>
+  <!--[if lt IE 9]>
+  <script src="../public/reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class=hiddenContainer>
+    <a class=link href="/"><i class="icon icon_home"></i></a>
+  </div>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+    <h1 class="title">linux-工作培训</h1>
+    <h2 class="author">watsy0007</h2>
+    <h3 class="date">2015-06-12</h3>
+</section>
+
+<section id="主题" class="slide level1">
+<h1>主题</h1>
+<ul>
+<li class="fragment"><ol type="1">
+<li class="fragment"><font size=20>linux基础操作</font></li>
+</ol></li>
+<li class="fragment"><ol start="2" type="1">
+<li class="fragment"><font size=20>linux更新代码</font><br /></li>
+</ol></li>
+<li class="fragment"><ol start="3" type="1">
+<li class="fragment"><font size=20>linux下调试php代码</font></li>
+</ol></li>
+</ul>
+</section>
+<section id="section" class="slide level1">
+<h1></h1>
+<h2 id="linux基础操作">1. linux基础操作</h2>
+<ul>
+<li class="fragment"><ol type="1">
+<li class="fragment">环境<br /></li>
+</ol></li>
+<li class="fragment"><ol start="2" type="1">
+<li class="fragment">基础命令</li>
+</ol>
+<ul>
+<li class="fragment">2.1 文件</li>
+<li class="fragment">2.2 进程</li>
+<li class="fragment">2.3 编辑</li>
+</ul></li>
+</ul>
+</section>
+<section id="section-1" class="slide level1">
+<h1></h1>
+<h2 id="linux更新代码">2. linux更新代码</h2>
+<ul>
+<li class="fragment"><ol type="1">
+<li class="fragment">svn</li>
+</ol></li>
+<li class="fragment"><ol start="2" type="1">
+<li class="fragment">shell</li>
+</ol></li>
+<li class="fragment"><ol start="3" type="1">
+<li class="fragment">crontab</li>
+</ol></li>
+</ul>
+</section>
+<section id="section-2" class="slide level1">
+<h1></h1>
+<h2 id="linux调试php代码">3. linux调试php代码</h2>
+<ul>
+<li class="fragment"><ol type="1">
+<li class="fragment">xdebug调试</li>
+</ol></li>
+<li class="fragment"><ol start="2" type="1">
+<li class="fragment">phpstorm调试配置</li>
+</ol></li>
+<li class="fragment"><ol start="3" type="1">
+<li class="fragment">远程调试</li>
+</ol></li>
+</ul>
+</section>
+<section id="结束" class="slide level1">
+<h1>结束</h1>
+</section>
+    </div>
+  </div>
+
+
+  <script src="../public/reveal.js/lib/js/head.min.js"></script>
+  <script src="../public/reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,         // Display controls in the bottom right corner
+        progress: true,         // Display a presentation progress bar
+        history: true,          // Push each slide change to the browser history
+        center: true,                       // Vertical centering of slides
+        maxScale: 1.5,                  // Bounds for smallest/largest possible content scale
+        slideNumber: false,                // Display the page number of the current slide
+        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+        transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          { src: '../public/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'http://cdn.staticfile.org/reveal.js/2.6.2/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'http://cdn.staticfile.org/reveal.js/2.6.2/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+//          { src: '../public/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+//          { src: '../public/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+//          { src: '../public/reveal.js/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; }, }
+//          { src: '../public/reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+]});
+    </script>
+    <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?ceecceaac4207002e6cdbf04dff7f8eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+    </body>
+</html>

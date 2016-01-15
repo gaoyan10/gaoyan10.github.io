@@ -1,0 +1,40 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      rouge
+redcarpet:
+    extensions: ["tables", "highlight", "with_toc_data", "no_intra_emphasis", "autolink"]
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            "三生如梦"
+tagline:          ''
+description:      '我爱。'
+url:              http://blog.gaoyan.name
+
+author:
+  name:           'gaoyan10'
+  url:            https://github.com/gaoyan10
+  blogrss:        http://blog.csdn.net/gaoyan10/rss/list
+  email:          gaoyansansheng@gmail.com
+  github:         https://github.com/gaoyan10
+  #twitter:        https://twitter.com/watsy0007
+  #facebook:       https://www.facebook.com/profile.php?id=100001897321864
+  linkedin:       https://www.linkedin.com/profile/view?id=317056704
+  weibo:          http://weibo.com/u/2093143407?is_all=1
+  csdn:           http://blog.csdn.net/gaoyan10
+
+gems: 		[jekyll-paginate]
+paginate:         10
+
+# Custom vars
+version:          1.0.1
+
+
+#comments
+comments:
+    provider:     duoshuo
+    duoshuo:
+      short_name: persist
