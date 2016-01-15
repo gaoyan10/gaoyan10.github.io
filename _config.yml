@@ -32,6 +32,8 @@ paginate:         10
 # Custom vars
 version:          1.0.1
 
+github:
+     repo:        https://github.com/gaoyan10
 
 #comments
 comments:
