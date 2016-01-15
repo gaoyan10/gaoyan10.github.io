@@ -9,8 +9,7 @@ permalink: /about/
 gmail 	: {{site.author.email}}
 <br/>
 <a href="{{site.author.github}}" class="am-icon-btn am-icon-github"></a>
-<a href="{{site.author.twitter}}" class="am-icon-btn am-icon-twitter"></a>
-<a href="{{site.author.facebook}}" class="am-icon-btn am-icon-facebook"></a>
+<a href="{{site.author.weibo}}" class="am-icon-btn am-icon-weibo"></a>
 <a href="{{site.author.linkedin}}" class="am-icon-btn am-icon-linkedin"></a>
 
 <br>
