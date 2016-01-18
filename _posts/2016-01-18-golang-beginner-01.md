@@ -44,3 +44,16 @@ func main() {
 	a, b := split(100)
 }
 ```
+###fmt格式的占位符
+####定义示例如下的类型和变量
+```
+type Human struct {
+	Name string
+}
+var people = Human{Name:"zhangsan"}
+```  
+
+| 占位符 | 说明 | 举例 | 输出 | 
+|:-----——:|:-——---:|:----—--:|:---——:|
+|%v | 相应值的默认格式 | Printf("%v", people)| {zhangsan}|
+
