@@ -2,7 +2,7 @@
 layout: post
 title: javascript操纵css
 categories: [语言学习]
-tags:[html, css]
+tags: [html, css]
 ---
 ####动态样式
 1. javascript和css结合，可以动态改变html页面元素内容和样式，利用innerHTML属性，用来设置或获取位于对象起始和结束标记内的HTML
