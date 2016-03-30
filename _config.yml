@@ -1,5 +1,5 @@
 # Dependencies
-markdown:         kramdown
+markdown:         redcarpet
 highlighter:      rouge
 redcarpet:
     extensions: ["tables", "highlight", "with_toc_data", "no_intra_emphasis", "autolink"]
