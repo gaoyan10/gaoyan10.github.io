@@ -4,7 +4,7 @@ title: IOS学习入门1
 categories: [移动开发]
 tags: [ios, xcode, Object-c]
 ---
-##ViewController和Scene
+## ViewController和Scene
 一个Scene对应一个ViewController。
 对于SingleView的Project，StoryBoard里只有一个View Controller。
 
@@ -15,7 +15,7 @@ View Controller Scene由以下部分组成
 3. ViewController对象，串联图载入一个场景时，会创建一个视图控制器的实例来管理该场景。
 4. 一个视图，在ViewController对象内。
 
-####添加用户界面元素
+#### 添加用户界面元素
 storyboard添加UIView。按住Control拖动组件到AssistantEditor，加入Action或者Outlet。
 
 1. 添加Action的Touch Up Inside到代码中。方法如下

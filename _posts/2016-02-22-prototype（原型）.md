@@ -6,7 +6,7 @@ tags: [javascript, 类, object]
 ---
 Javascript没有class关键字，不支持类。但是我们依然可以很方便的使用对象。在JavaScript里可以简单的把{}理解为一个对象。
 
-##prototype（原型）
+## prototype（原型）
 javascript是prototype based programming语言，与通常的class based programming有很大的区别。
 
 1. 函数与对象有相同的语言地位
@@ -152,7 +152,7 @@ new了一个对象后，可以直接使用prototype动态添加的property。有
 1. **先去搜索函数对象本身的属性,如果找到立即执行**
 2. **如果1没有找到,则会去搜索prototype属性,有2种结果,找到则直接执行,否则继续搜索 父对象 的 父对象 的prototype, 直至找到,或者到达 prototype chain 的结尾(结尾会是Object对象)**
 
-##关于两种perproty
+## 关于两种perproty
 [廖雪峰的博客Javascript 面向对象编程（一）：封装](http://www.ruanyifeng.com/blog/2010/05/object-oriented_javascript_encapsulation.html)，对prototype动态添加和function自带的属性描述较好。
 总结为以下：
 

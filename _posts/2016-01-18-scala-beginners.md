@@ -5,7 +5,7 @@ categories: [语言学习]
 tags: [scala]
 ---
 
-##Scala基础教程总结1
+## Scala基础教程总结1
 ### scala的变量
 ```
 /**
@@ -21,12 +21,12 @@ val myVal : String = "Foo"
 ```
 **val or var VariableName: DataType [= Initial Value]**
 
-###多重任务
+### 多重任务
 ```
 //返回一个元组
 val (myVal1: Int, myVar2: String) = Pair(40, "Foo")
 ```
-###访问限定符，与Java类似
+### 访问限定符，与Java类似
 ### if-else语句与Java相同
 ### for循环的<-生成器
 ```

@@ -4,8 +4,8 @@ title: Go语言基础2
 categories: [语言学习]
 tags: [go, golang]
 ---
-##Go语言基础2
-###类型转换
+## Go语言基础2
+### 类型转换
 **T（v）**
 
 ```
@@ -13,14 +13,14 @@ var i int = 12;
 var f float64 = float64(i);
 ```
 _Go在不同类型之间的赋值时需要显式转换，不存在隐式类型转换_
-####类型推导
+#### 类型推导
 ```
 i := 43 //int
 f := 3.14 //float64
 g := 0.1 + 0.5i //complex128复数
 ```
 
-###常量
+### 常量
 ```
 package main
 
@@ -37,8 +37,8 @@ func main() {
 	fmt.Println("Go rules?", Truth)
 }
 ```
-###控制语句
-###for
+### 控制语句
+### for
 for不需要（），但循环体需要{}，其中初始化语句和后置语句是可选的
 
 ```
@@ -67,7 +67,7 @@ func main() {
 	fmt.Println(sum)
 }
 ```
-###for --> while
+### for --> while
 ```
 package main
 import (
@@ -81,7 +81,7 @@ func main() {
 }
 ```
 **忽略了循环条件，也就变成了一个死循环**
-###if
+### if
 ```
 func sqrt(x float64) string{
 	if x < 10 {
@@ -89,7 +89,7 @@ func sqrt(x float64) string{
 	}
 }
 ```
-###if便捷语句
+### if便捷语句
 if可以在条件语句之前执行一个简单语句,该语句声明的变量在else中也起作用
 
 ```
@@ -105,7 +105,7 @@ func pow(x, n, lim float64) float64 {
 	return lim
 }
 ```
-###switch语句
+### switch语句
 **switch的条件从上到下执行，_匹配成功时停止_** 
 
 **没有条件的 switch 同 switch true 一样。**
@@ -116,7 +116,7 @@ switch i {
 	case f():
 }
 ```
-###神奇的defer关键字
+### 神奇的defer关键字
 defer 语句会延迟函数的执行直到上层函数返回。
 延迟调用的参数会立刻生成，但是在上层函数返回前函数都不会被调用。
 
@@ -132,7 +132,7 @@ func main() {
 }
 
 ```
-####defer语句被压入一个栈，后进先出
+#### defer语句被压入一个栈，后进先出
 
 ```
 package main

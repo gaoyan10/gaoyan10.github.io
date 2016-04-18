@@ -13,7 +13,7 @@ var a = 1;
 a:= 1;
 var a, b int = 1, 2
 ```
-###多值返回
+### 多值返回
 ```
 package main
 
@@ -28,7 +28,7 @@ func main() {
 	a, b := swap("hello", world)
 }
 ```
-###命名返回值
+### 命名返回值
 ```
 package main
 
@@ -44,9 +44,9 @@ func main() {
 	a, b := split(100)
 }
 ```
-###fmt格式的占位符
+### fmt格式的占位符
 [http://studygolang.com/articles/2644](http://studygolang.com/articles/2644)
-####定义示例如下的类型和变量
+#### 定义示例如下的类型和变量
 ```
 type Human struct {
 	Name string

@@ -5,15 +5,15 @@ categories: [技术博客]
 tags: [jetty, JFinal, maven, github, 博客]
 ---
 
-##JFinal jetty maven配置jsp支持
-####最近在折腾Jfinal框架，尝试用maven构建了JFinal项目，主要构建步骤参考这篇博文
+## JFinal jetty maven配置jsp支持
+#### 最近在折腾Jfinal框架，尝试用maven构建了JFinal项目，主要构建步骤参考这篇博文
 [http://blog.dreamlu.net/blog/27](http://blog.dreamlu.net/blog/27)
 
 [http://blog.dreamlu.net/blog/28](http://blog.dreamlu.net/blog/28)
 
 [http://blog.dreamlu.net/blog/29](http://blog.dreamlu.net/blog/29)
 
-####这一块不是解决jsp支持的重点，大概整理一下步骤如下
+#### 这一块不是解决jsp支持的重点，大概整理一下步骤如下
 IDE为Eclipse javaEE，自带了maven plugin
 
  1. 选择新建一个Maven Project，选择workspace，选择webapp，具体为**org.apache.maven.archetypes, maven-archetype-webapp**，然后添加相关的GroupId等等。
@@ -40,11 +40,11 @@ public class Main {
 
 
 ----------
-####接下来可以说我在运行后遇到的问题了。上面的博客示例中webapp下面是一个index.html，访问8080端口后一切成功，但我的目录下默认是一个index.jsp，运行后提示如下：
+#### 接下来可以说我在运行后遇到的问题了。上面的博客示例中webapp下面是一个index.html，访问8080端口后一切成功，但我的目录下默认是一个index.jsp，运行后提示如下：
 
 ![这里写图片描述](http://img.blog.csdn.net/20160115133722550)
-####google后得知jetty-server需要配置jsp，单独添加一个jar包。
-####具体是这篇文章，其中被选择的答案支持数是0，但确实有效。
+#### google后得知jetty-server需要配置jsp，单独添加一个jar包。
+#### 具体是这篇文章，其中被选择的答案支持数是0，但确实有效。
 > http://stackoverflow.com/questions/26217143/embedded-jetty-server-no-jsp-support-for-did-not-find-org-apache-jasper-ser
 
 在pom.xml中添加jetty-jsp，发现运行不过。
