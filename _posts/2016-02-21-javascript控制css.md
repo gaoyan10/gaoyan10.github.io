@@ -5,22 +5,21 @@ categories: [语言学习]
 tags: [html, css]
 ---
 #### 动态样式
-1. javascript和css结合，可以动态改变html页面元素内容和样式，利用innerHTML属性，用来设置或获取位于对象起始和结束标记内的HTML
-2. javascript利用styleSheets属性，以数组的形式获取当前网页的样式集合，rules表示第几个选择器，属性cssRules表示四第几条规则。
+##### 1. javascript和css结合，可以动态改变html页面元素内容和样式，利用innerHTML属性，用来设置或获取位于对象起始和结束标记内的HTML
+##### 2. javascript利用styleSheets属性，以数组的形式获取当前网页的样式集合，rules表示第几个选择器，属性cssRules表示四第几条规则。
 	
-	```
-	function fnInit() {
-		var oStyleSheet = document.styleSheets[0]; //css集合
-		var oRule = oStyleSheet.rules[0]; //第一个选择器
-		onRule.style.width="200px";
+```
+function fnInit() {
+	var oStyleSheet = document.styleSheets[0]; //css集合
+	var oRule = oStyleSheet.rules[0]; //第一个选择器
+	onRule.style.width="200px";
 		
-	}
+}
+```
 	
-	```
+##### 3. 动态定位, pixelLeft属性返回定位元素左边界偏移量的整数像素值，pixelTop类似。以下代码在safari里有效果
 	
-3. 动态定位, pixelLeft属性返回定位元素左边界偏移量的整数像素值，pixelTop类似。以下代码在safari里有效果
-	
-	```
+```
 	<!DOCTYPE html>
 	<html>
 	<head>
@@ -92,14 +91,14 @@ tags: [html, css]
 	</body>
 	</html>
 
-	```
+```
 	
-4. 显示与隐藏
+##### 4. 显示与隐藏
 	
-	```
+```
 	target = document.getElementById(targetId);
 	target.style.display = "none";
 	target.style.display = "none";
 	target.style.display = "block";
 	
-	```
+```
