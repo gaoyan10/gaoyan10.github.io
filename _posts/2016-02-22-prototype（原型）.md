@@ -67,7 +67,7 @@ javascript是prototype based programming语言，与通常的class based program
 </html>
 ```
 代码中我们为prototype添加了name属性和getName()方法。
-所以到目前为止我们了解到<h3>**prototype是一个object，每个function都有，并且能动态的添加property**</h3>
+所以到目前为止我们了解到**prototype是一个object，每个function都有，并且能动态的添加property**
 
 继续试验以下代码：
 
@@ -102,7 +102,7 @@ javascript是prototype based programming语言，与通常的class based program
 </html>
 
 ```
-new了一个对象后，可以直接使用prototype动态添加的property。有人在这里理解为<h3>**创建的对象，可以继承prototype创建的属性和方法**</h3>
+new了一个对象后，可以直接使用prototype动态添加的property。有人在这里理解为**创建的对象，可以继承prototype创建的属性和方法**
 
 接着看以下代码：
 
