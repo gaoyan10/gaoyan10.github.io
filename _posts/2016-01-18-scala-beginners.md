@@ -129,7 +129,7 @@ Value of b: 3
 C:/>
 ```
 
-###for循环使用过滤器
+### for循环使用过滤器
 
 ```
 for( var x <- List
@@ -139,7 +139,7 @@ for( var x <- List
 }
 ```
 
-###for循环采用yield
+### for循环采用yield
 
 ```
 var retVal = for { var x <- List
@@ -150,7 +150,7 @@ for (x <- retVal) {
 }
 ```
 
-###break语句
+### break语句
 
 ```
 import scala.util.control._
