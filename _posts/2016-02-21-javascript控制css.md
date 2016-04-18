@@ -22,7 +22,7 @@ tags: [html, css]
 	
 	```
 	<!DOCTYPE html>
-<html>
+	<html>
 	<head>
 		<style type="text/css">
 			#d1{
@@ -90,7 +90,7 @@ tags: [html, css]
 		</div>
 		</div>
 	</body>
-</html>
+	</html>
 
 	```
 	
