@@ -15,7 +15,9 @@ tags: [html, css]
 		onRule.style.width="200px";
 		
 	}
+	
 	```
+	
 3. 动态定位, pixelLeft属性返回定位元素左边界偏移量的整数像素值，pixelTop类似。以下代码在safari里有效果
 	
 	```
@@ -89,7 +91,9 @@ tags: [html, css]
 		</div>
 	</body>
 </html>
+
 	```
+	
 4. 显示与隐藏
 	
 	```
@@ -97,4 +101,5 @@ tags: [html, css]
 	target.style.display = "none";
 	target.style.display = "none";
 	target.style.display = "block";
+	
 	```
