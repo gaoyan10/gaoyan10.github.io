@@ -5,6 +5,7 @@ categories: [语言学习]
 tags: [go, golang]
 ---
 ## Go语言基础2
+
 ### 类型转换
 
 **T（v）**
@@ -41,6 +42,7 @@ func main() {
 	fmt.Println("Go rules?", Truth)
 }
 ```
+
 ### 控制语句
 
 ### for
