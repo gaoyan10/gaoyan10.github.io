@@ -6,7 +6,9 @@ tags: [scala]
 ---
 
 ## Scala基础教程总结1
+
 ### scala的变量
+
 ```
 /**
 * 声明一个可变变量
@@ -19,21 +21,28 @@ var myVar : String = "Foo"
 val myVal : String = "Foo"
 
 ```
+
 **val or var VariableName: DataType [= Initial Value]**
 
 ### 多重任务
+
 ```
 //返回一个元组
 val (myVal1: Int, myVar2: String) = Pair(40, "Foo")
 ```
+
 ### 访问限定符，与Java类似
+
 ### if-else语句与Java相同
+
 ### for循环的<-生成器
+
 ```
 for (var x <- Range) {
 	statement(s);
 }
 ```
+
 ```
 object Test {
    def main(args: Array[String]) {
@@ -58,6 +67,7 @@ value of a: 9
 value of a: 10
 
 ```
+
 ```
 object Test {
    def main(args: Array[String]) {
@@ -82,6 +92,7 @@ value of a: 9
 
 C:/>
 ```
+
 ```
 object Test {
    def main(args: Array[String]) {
@@ -117,7 +128,9 @@ Value of b: 3
 
 C:/>
 ```
+
 ###for循环使用过滤器
+
 ```
 for( var x <- List
       if condition1; if condition2...
@@ -125,7 +138,9 @@ for( var x <- List
    statement(s);
 }
 ```
+
 ###for循环采用yield
+
 ```
 var retVal = for { var x <- List
 		if condition1; if condition2...
@@ -134,7 +149,9 @@ for (x <- retVal) {
 	println(x);
 }
 ```
+
 ###break语句
+
 ```
 import scala.util.control._
 
@@ -156,4 +173,5 @@ object Test {
    }
 }
 ```
+
 **可以通过使用多个break达到嵌套的目的**
