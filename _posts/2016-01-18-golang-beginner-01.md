@@ -6,14 +6,18 @@ tags: [go, golang]
 ---
 
 ## Go语言基础篇1
+
 #### go语言的变量生命与赋值的三种方式
+
 ```
 var a int = 1;
 var a = 1;
 a:= 1;
 var a, b int = 1, 2
 ```
+
 ### 多值返回
+
 ```
 package main
 
@@ -28,7 +32,9 @@ func main() {
 	a, b := swap("hello", world)
 }
 ```
+
 ### 命名返回值
+
 ```
 package main
 
@@ -44,9 +50,12 @@ func main() {
 	a, b := split(100)
 }
 ```
+
 ### fmt格式的占位符
 [http://studygolang.com/articles/2644](http://studygolang.com/articles/2644)
+
 #### 定义示例如下的类型和变量
+
 ```
 type Human struct {
 	Name string
@@ -79,6 +88,7 @@ var people = Human{Name:"zhangsan"}
 |%p    |十六进制表示，前缀 0x|Printf("%p", &people)|0x4f57f0|
 
 #####其他标记
+
 |占位符| 说明|举例|输出|
 |-------|--------|------|------|
 |+|总打印数值的正负号；对于%q（%+q）保证只输出ASCII编码的字符。Printf("%+q", "中文")|"\u4e2d\u6587"|
