@@ -16,6 +16,7 @@ gmail 	: {{site.author.email}}
 
 如果你喜欢博客，欢迎订阅
 <a href="{{site.author.blogrss}}" class="am-icon-btn am-icon-rss"></a>
+
 ### 其他站点传送门
 
 1. [CSDN博客][csdnblog]
@@ -23,7 +24,7 @@ gmail 	: {{site.author.email}}
 
 ### 职业技能
 
-#####1. 语言&框架
+##### 1. 语言&框架
 
 
 |语言		|方向	|框架/软件	|熟练度	|
@@ -39,20 +40,20 @@ gmail 	: {{site.author.email}}
 
 
 
-#####2. 开发平台
+##### 2. 开发平台
 
 1. mac
 2. linux
 3. Android
 
-#####3. 研究方向
+##### 3. 研究方向
 
 1. 移动客户端
 2. Web开发
 3. 移动游戏
 
 
-###兴趣爱好
+### 兴趣爱好
 
 目前没了。
 
