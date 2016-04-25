@@ -17,3 +17,9 @@ permalink: /books/
 |1|[xUtils](https://github.com/wyouflf/xUtils)|January 22, 2016||未开始||
 |2|[Universal-ImageLoader](https://github.com/nostra13/Android-Universal-Image-Loader)|January 22, 2016||未开始||
 |3|[xUtils3](https://github.com/wyouflf/xUtils3)|January 22, 2016||已开始||
+
+### 文档待读待理清单
+
+|序号|地址|阅读状态|笔记状态|收获|时间|
+|:--:|:----------:|:-----:|:-----:|:--------:|:----:|
+|1|[移动端网络优化](http://b.codekk.com/detail/Trinea/%E7%A7%BB%E5%8A%A8%E7%AB%AF%E7%BD%91%E7%BB%9C%E4%BC%98%E5%8C%96)|待读|不需要做笔记||2016-04-25|
