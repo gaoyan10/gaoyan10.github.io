@@ -22,7 +22,19 @@ gmail 	: {{site.author.email}}
 1. [CSDN博客][csdnblog]
 2. [个人博客] [personalsite]
 
+### 我的个人项目
+
+1. 帮别人实现的一款App，当时是新手，技术不够成熟，[射手星](http://www.wandoujia.com/apps/com.shooterstar.mobile)
+2. 14年时手痒做的App，[地铁票价计算器](http://www.wandoujia.com/apps/com.yan.subway)
+3. 本来想做一个妹纸壁纸的App，结果跑偏了，[最美女神](http://a.app.qq.com/o/simple.jsp?pkgname=com.yan.dbpicture)
+4. 帮别人实现需求的一款App，音乐与社交，[桔柚](http://www.wandoujia.com/apps/com.dqqdo.home)
+
+
 ### 职业技能
+
+#### 我的简历
+
+[我的简历在这里]()
 
 ##### 1. 语言&框架
 
