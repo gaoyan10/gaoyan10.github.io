@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Nodejs-Error-Cannot find module 'unicode/category/So'
+title: Nodejs-Error-Cannot-find-module-'unicode/category/So'
 categories: [Node学习]
 tags: [npm, node, cnpm]
 ---
